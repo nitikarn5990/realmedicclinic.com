@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>เรียล เมดิค คลีนิค Real Medic Clinic</title>
+        <META name=keywords 
+              content="เรียล เมดิค คลีนิค Real Medic Clinic">
+            <META name=description content="เรียล เมดิค คลีนิค Real Medic Clinic">
+                <link rel="icon" href="images/icon.png" type="image/x-icon" />
+                <link rel="stylesheet" type="text/css" href="style.css" />
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+                <script src="dist/slippry.min.js"></script>
+                <script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
+                <meta name="viewport" content="width=device-width">
+                    <link rel="stylesheet" href="slide.css">
+                        <link rel="stylesheet" href="dist/slippry.css">
+                            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+                                <!-- Latest compiled and minified JavaScript -->
+                                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                                </head>
+
+                                <body>
+                                    <nav class="navbar navbar-default">
+                                        <div class="container-fluid">
+                                            <div class="navbar-header">
+                                                <a class="navbar-brand" href="#"></a>
+                                            </div>
+                                            <div>
+                                                <ul class="nav navbar-nav">
+                                                    <li class="active"><a href="#">HOME</a></li>
+                                                    <li><a href="#">ABOUT US</a></li>
+                                                    <li><a href="#">SERVICES</a></li>
+                                                    <li><a href="#">PROMOTION</a></li>
+                                                     <li><a href="#">CONTACT US</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                    <div class="container">
+                                        <div class="">
+                                            <nav class="navbar navbar-default">
+                                                <div id="header">
+                                                    <div id="menu">
+                                                        <ul>
+                                                            <li class="active"><a href="index.html">HOME</a></li>
+                                                            <li><a href="about.html">ABOUT US</a></li>
+                                                            <li><a href="services.html">SERVICES</a></li>
+                                                            <li><a href="promotion.html">PROMOTION</a></li>
+                                                            <li><a href="contact.html">CONTACT US</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div id="slide">
+                                                        <article class="demo_block">
+                                                            <ul id="demo1">
+                                                                <li class="active"><a href="#slide1"><img src="img/slide.jpg" ></a></li>
+                                                                <li><a href="#slide2"><img src="img/slide1.jpg" ></a></li>
+                                                                <li><a href="#slide2"><img src="img/slide2.jpg" ></a></li>
+                                                            </ul>
+                                                        </article>
+
+                                                    </div>
+                                                </div>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div id="contant">
+                                            <div class="txtcontant">
+                                                <div class="lefttxtcontant">
+                                                    <h1>ยินดีต้อนรับสู่ เรียล เมดิค คลีนิค.</h1>
+                                                    <p>อีกหนึ่งบริการจาก Hersclinic สำหรับลูกค้าคนพิเศษที่ต้องการเป็นพันธมิตรกับ BELLAGE MEDICAL ศูนย์ศัลยกรรมความงามจมูก 
+                                                        ศัลยกรรมตา ปรับโครงสร้างใบหน้า และ เวชศาสตร์ชะลอวัย ด้วยทีมแพทย์เฉพาะการและ นวัฒกรรมที่ล้ำหน้า พร้อมทั้งทีมที่ปรึกษา และดู
+                                                        และตลอดการเดินทาง จากประเทศไทยสู่ประเทศเกาหลี.</p>
+                                                </div>
+                                                <div class="righttxtcontant"><img src="images/righttxtcontant.jpg" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div id="footer">
+                                            <div class="footerleft">
+                                                <p>เรียล เมดิค คลีนิค ถนนมหิดล ต.ป่าแดด อ.เมืองเชียงใหม จ.เชียงใหม่ 50100 ประทเศไทย. โทร : 095-4181820  อีเมล์ :  info@realmedicclinic.com</p>
+                                                <p>Copyright (c) 2015 Real Medic Clinic. All rights reserved.</p>
+                                            </div>
+                                            <div class="footerright"><img src="images/logofooter.jpg" /></div>
+                                        </div>
+                                    </div>
+                                   
+                                    
+                                                        <script>
+                                                            $(function () {
+                                                                var demo1 = $("#demo1").slippry({
+                                                                    transition: 'fade',
+                                                                    useCSS: true,
+                                                                    speed: 1000,
+                                                                    pause: 3000,
+                                                                    auto: true,
+                                                                    preload: 'visible'
+                                                                });
+
+                                                                $('.stop').click(function () {
+                                                                    demo1.stopAuto();
+                                                                });
+
+                                                                $('.start').click(function () {
+                                                                    demo1.startAuto();
+                                                                });
+
+                                                                $('.prev').click(function () {
+                                                                    demo1.goToPrevSlide();
+                                                                    return false;
+                                                                });
+                                                                $('.next').click(function () {
+                                                                    demo1.goToNextSlide();
+                                                                    return false;
+                                                                });
+                                                                $('.reset').click(function () {
+                                                                    demo1.destroySlider();
+                                                                    return false;
+                                                                });
+                                                                $('.reload').click(function () {
+                                                                    demo1.reloadSlider();
+                                                                    return false;
+                                                                });
+                                                                $('.init').click(function () {
+                                                                    demo1 = $("#demo1").slippry();
+                                                                    return false;
+                                                                });
+                                                            });
+                                                        </script>
+                                </body>
+                                </html>
